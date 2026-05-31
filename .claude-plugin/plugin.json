@@ -1,0 +1,30 @@
+{
+  "name": "cognitive-flexibility",
+  "version": "1.0.0",
+  "description": "AI Agent Cognitive Flexibility Plugin — Metacognitive Agent Framework (MCAF). Enables goal-space monitoring, divergence-convergence thinking, autonomy regulation, proactive exploration, and anti-hallucination safeguards to overcome task rigidity.",
+  "author": {
+    "name": "MCAF Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cognitive-flexibility",
+    "metacognition",
+    "divergence-convergence",
+    "proactive-agent",
+    "goal-flexibility",
+    "anti-rigidity",
+    "autonomy",
+    "MCAF",
+    "claude-code-plugin"
+  ],
+  "skills": ["./skills/"],
+  "commands": ["./commands/"],
+  "mcpServers": {},
+  "features": {
+    "agents": 5,
+    "commands": 7,
+    "skills": 6,
+    "hookEvents": ["SessionStart", "PreToolUse", "Stop"],
+    "customTools": []
+  }
+}

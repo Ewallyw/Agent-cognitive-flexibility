@@ -1,0 +1,16 @@
+# State directory
+.cognitive-flex/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Session logs
+*.log
